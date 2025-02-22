@@ -28,7 +28,7 @@
         </p>
         <a href="#cars" class="button">Посмотреть автомобили</a>
       </div>
-      <img src="images/main-car.png" alt="Main car" class="main-image" />
+      <img src="images/main-car.png" alt="Main car" class="main-image" [style]="mainImgStyle"/>
     </div>
   </section>
 
@@ -53,7 +53,7 @@
           <div class="car-details">
             <h4>{{car.tile}}</h4>
             <p>
-            {{car.text}}
+              {{car.text}}
             </p>
             <div class="car-action">
               <ul>
@@ -76,7 +76,7 @@
 
 <section class="order" id="order">
   <div class="container">
-    <img src="images/order-car.png" alt="Order car" />
+    <img src="images/order-car.png" alt="Order car" [style]="orderImgStyle"/>
     <form [formGroup]="orderForm">
       <h3>Забронируйте автомобиль</h3>
       <p>
