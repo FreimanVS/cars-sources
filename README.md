@@ -2,3 +2,6 @@
 
 Build:
 `sh build.sh`
+
+Run::
+`sh run.sh`
